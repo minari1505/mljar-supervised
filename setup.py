@@ -14,7 +14,7 @@ setup(
     description="Automated Machine Learning for Humans",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mljar/mljar-supervised",
+    url="https://github.com/minari1505/mljar-supervised.git",
     author="MLJAR, Sp. z o.o.",
     author_email="contact@mljar.com",
     license="MIT",
