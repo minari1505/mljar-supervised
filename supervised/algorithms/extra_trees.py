@@ -42,6 +42,7 @@ class ExtraTreesAlgorithm(SklearnTreesEnsembleClassifierAlgorithm, ClassifierMix
             warm_start=True,
             n_jobs=params.get("n_jobs", -1),
             random_state=params.get("seed", 1),
+            class_weight={0:1, 1:4.02946593789808}
         )
         self.max_steps = self.params.get("max_steps", self.max_steps)
 

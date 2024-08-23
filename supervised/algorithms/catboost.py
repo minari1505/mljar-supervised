@@ -117,6 +117,7 @@ class CatBoostAlgorithm(BaseAlgorithm):
             "verbose": False,
             "allow_writing_files": False,
             "random_seed": self.params.get("seed", 1),
+            "class_weight":[1,4.02946593789808]
         }
 
         for extra_param in [

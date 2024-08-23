@@ -115,6 +115,7 @@ class LightgbmAlgorithm(BaseAlgorithm):
             "verbose": -1,
             "seed": self.params.get("seed", 1),
             "extra_trees": self.params.get("extra_trees", False),
+            "scale_pos_weight": 4.02946593789808
         }
 
         for extra_param in [

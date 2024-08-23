@@ -90,6 +90,7 @@ class XgbAlgorithm(BaseAlgorithm):
             # "silent": self.params.get("silent", 1),
             "seed": self.params.get("seed", 1),
             "verbosity": 0,
+            "scale_pos_weight": 4.02946593789808
         }
 
         if "lambda" in self.params:

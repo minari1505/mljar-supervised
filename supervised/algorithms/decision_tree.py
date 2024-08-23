@@ -100,6 +100,7 @@ class DecisionTreeAlgorithm(SklearnAlgorithm, BaseEstimator, ClassifierMixin):
             criterion=params.get("criterion", "gini"),
             max_depth=params.get("max_depth", 3),
             random_state=params.get("seed", 1),
+            class_weight={0:1, 1:4.02946593789808}
         )
 
     def file_extension(self):
